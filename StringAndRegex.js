@@ -80,7 +80,9 @@ value of ${score}
 
 console.log(greeting)
 
-let stringRaw = String.raw`\u2718`.length     //6
+let stringRaw = String.raw`\u2718`.length         //6
 let stringNonRaw = `\u2718`.length               // 1
 
 console.log(stringNonRaw)
+
+
